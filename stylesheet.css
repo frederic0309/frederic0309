@@ -35,7 +35,7 @@ header{
 }
 
 .img-icon {
-  width:50px;
+  width:100px;
   border-radius: 50%;
   float: left;
   padding: 10px 20px;
@@ -91,14 +91,15 @@ header{
   border-left: 2px double black;
   padding-left: 10px;
   font-size: 48px;
-  width: 50%;
-  margin: 20px auto;
+  /* width: 50%; */
+  /* margin: 0px auto; */
 }
 
 .about {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
+
 
 .about-contents {
   display:flex;
