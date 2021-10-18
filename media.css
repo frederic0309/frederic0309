@@ -16,6 +16,17 @@
   .container h2 {
     font-size: 30px;
   }
+  
+  .works-contents {
+    display: flex;
+    width:50%;
+  }
+
+  .blog-contents {
+    display: flex;
+    width:50%;
+  }
+  
 }
 
 @media(max-width: 670px){
@@ -36,5 +47,16 @@
   .container h2 {
     font-size: 24px;
   }
+  
+  .works-contents {
+    display: flex;
+    width:100%;
+  }
+
+  .blog-contents {
+    display: flex;
+    width:100%;
+  }
+
 
 }
