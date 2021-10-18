@@ -35,7 +35,8 @@ header{
 }
 
 .img-icon {
-  width:100px;
+  width:65px;
+  height: 65px;
   border-radius: 50%;
   float: left;
   padding: 10px 20px;
@@ -89,7 +90,7 @@ header{
 .container h2 {
   font-weight: normal;
   border-left: 2px double black;
-  padding-left: 10px;
+/*   padding-left: 10px; */
   font-size: 48px;
   /* width: 50%; */
   /* margin: 0px auto; */
