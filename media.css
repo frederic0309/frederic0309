@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px){
+   .top-text h1 {
+    font-size: 60px;
+    margin: 0;
+  }
+
+  .top-text p {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .container h2 {
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 670px){
+  .header-right {
+    display: none;
+  }
+
+  .top-text h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+  .top-text p {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .container h2 {
+    font-size: 24px;
+  }
+
+}
