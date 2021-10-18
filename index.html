@@ -12,15 +12,15 @@
 
   <body>
     <header>
-      <div class="header-left">
+      <div class="header-left" id="top">
         <img class="img-icon" src="Gmail/IMG_20210112_194950_905.jpg">
-        <p>blanc</p>
+        <p><a href="#top">blanc</a></p>
       </div>
       <div class="header-right">
         <ul>
-          <li>about</li>
-          <li>works</li>
-          <li>blog</li>
+          <li><a href="#about">about</a></li>
+          <li><a href="works.html" target="_blanc">works</a></li>
+          <li><a href="blog.html" target="_blanc">blog</a></li>
         </ul>
       </div>
     </header>
@@ -35,15 +35,15 @@
       </div>
 
       <div class="contents">
-        <div class="container about">
+        <div class="container about" id="about">
           <h2>about</h2>
           <div class="about-contents">
             <img class="about-icon" src="Gmail/IMG_20210112_194950_905.jpg">
-            <p>東京出身大阪在住<br>モノを作ることが好きです</p>
+            <p>東京出身大阪在住<br>モノを作ることが好きです<br>日々勉強中</p>
           </div>
         </div>
         <div class="container works">
-          <h2>works</h2>
+          <h2><a href="works.html" target="_blanc">works</a></h2>
           <div class="works-contents">
             <div class="content">
               <img src="Gmail/20210924_201441.jpg">
@@ -54,20 +54,37 @@
               <p>サイト</p>
             </div>
             <div class="content">
-              <img src="try1.images/icon1.png">
+              <img src="try1.images/icon1.svg">
               <p>絵</p>
             </div>
           </div>
         </div>
         <div class="container blog">
-          <h2>blog</h2>
-          <img src="pics/IMG_9511.JPG" class="blog-img">
-          <p>旅行記</p>
+          <h2><a href="blog.html" target="_blanc">blog</a></h2>
+          <div class="blog-contents">
+            <dic class="content">
+              <img src="pics/IMG_4294.JPG"  class="blog-img">
+              <p>2019年2月　上海</p>
+            </dic>
+            <dic class="content">
+              <img src="pics/IMG_9511.JPG" class="blog-img">
+              <p>2018年10月　ウズベキスタン</p>
+            </dic>
+            <dic class="content">
+              <img src="pics/IMG_0134.JPG" class="blog-img">
+              <p>2017年9月　盛岡</p>
+            </dic>
+          </div>
         </div>
         <div class="container contact">
           <h2>contact</h2>
-          <div class="instagram" >Instagram</div>
-          <p>お問い合わせ</p>
+          <div class="instagram" >
+            <a href="https://www.instagram.com/rain_at_nights/" target="_blanc">
+              <span class="fa fa-instagram"></span>
+              Instagram
+            </a> 
+          </div>
+          <p>ご意見はこちら</p>
           <textarea></textarea>
           <input type="submit" value="送信">
         </div>
@@ -76,9 +93,9 @@
     <footer>
       <div class="footer-left">
         <ul>
-          <li>about</li>
-          <li>works</li>
-          <li>blog</li>
+          <li><a href="#about">about</a></li>
+          <li><a href="works.html" target="_blanc">works</a></li>
+          <li><a href="blog.html" target="_blanc">blog</a></li>
         </ul>
       </div>
     </footer>
