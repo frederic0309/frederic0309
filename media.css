@@ -19,11 +19,13 @@
   
   .works-contents {
     display: flex;
+    flex-wrap: wrap;
     width:50%;
   }
 
   .blog-contents {
     display: flex;
+    flex-wrap: wrap;
     width:50%;
   }
   
